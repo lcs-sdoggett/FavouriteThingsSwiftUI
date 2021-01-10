@@ -9,14 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
-        VStack {
-            
-            Image("basketball")
-                .padding()
-            
-            Text("I really enjoy watching playing and watching basketball")
-
+        List {
+            NavigationLink("Basketball", destination: BasketballView())
+            NavigationLink("Cooking", destination: CookingView())
+            NavigationLink("GameOfThronesView", destination: GameOfThronesView())
         }
         .navigationTitle("Favourite Things")
     }
@@ -24,6 +20,8 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        NavigationView {
+            ContentView()
+        }
     }
 }
