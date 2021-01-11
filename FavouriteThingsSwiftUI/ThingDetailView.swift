@@ -7,16 +7,19 @@
 
 import SwiftUI
 
-struct BasketballView: View {
+struct ThingDetailView: View {
+    
+    let thingToShow: Thing
+    
     var body: some View {
             
         VStack {
             
-            Image("Basketball")
+            Image(thingToShow.imageName)
                     .resizable()
                     .scaledToFit()
             
-            Text("I'm honestly not a huge basketball fan, but nevertheless I enjoy watching games sometimes.")
+            Text(thingToShow.description)
             
             Spacer()
         }
@@ -24,11 +27,11 @@ struct BasketballView: View {
     }
 }
 
-struct BasketballView_Previews: PreviewProvider {
-    static var previews: some View {
-        
-        NavigationView {
-            BasketballView()
-        }
-    }
-}
+//struct BasketballView_Previews: PreviewProvider {
+//    static var previews: some View {
+//
+//        NavigationView {
+//            BasketballView()
+//        }
+//    }
+//}

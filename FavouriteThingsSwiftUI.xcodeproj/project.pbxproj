@@ -11,9 +11,9 @@
 		7DB58ACA25A8F2DF006508E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB58AC925A8F2DF006508E0 /* ContentView.swift */; };
 		7DB58ACC25A8F2E0006508E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB58ACB25A8F2E0006508E0 /* Assets.xcassets */; };
 		7DB58ACF25A8F2E0006508E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB58ACE25A8F2E0006508E0 /* Preview Assets.xcassets */; };
-		7DC23C5B25ABAFBD002CE729 /* BasketballView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC23C5A25ABAFBD002CE729 /* BasketballView.swift */; };
-		7DC23C5E25ABB1C1002CE729 /* CookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC23C5D25ABB1C1002CE729 /* CookingView.swift */; };
-		7DC23C6125ABB1E1002CE729 /* GameOfThronesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC23C6025ABB1E1002CE729 /* GameOfThronesView.swift */; };
+		7DB8B28025ACDEA6002EDC43 /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB8B27F25ACDEA6002EDC43 /* Thing.swift */; };
+		7DB8B28325ACE066002EDC43 /* Things.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB8B28225ACE066002EDC43 /* Things.swift */; };
+		7DC23C5B25ABAFBD002CE729 /* ThingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC23C5A25ABAFBD002CE729 /* ThingDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +23,9 @@
 		7DB58ACB25A8F2E0006508E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DB58ACE25A8F2E0006508E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7DB58AD025A8F2E0006508E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7DC23C5A25ABAFBD002CE729 /* BasketballView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketballView.swift; sourceTree = "<group>"; };
-		7DC23C5D25ABB1C1002CE729 /* CookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingView.swift; sourceTree = "<group>"; };
-		7DC23C6025ABB1E1002CE729 /* GameOfThronesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfThronesView.swift; sourceTree = "<group>"; };
+		7DB8B27F25ACDEA6002EDC43 /* Thing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
+		7DB8B28225ACE066002EDC43 /* Things.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Things.swift; sourceTree = "<group>"; };
+		7DC23C5A25ABAFBD002CE729 /* ThingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				7DB58AC725A8F2DF006508E0 /* FavouriteThingsSwiftUIApp.swift */,
+				7DB8B28225ACE066002EDC43 /* Things.swift */,
+				7DB8B27F25ACDEA6002EDC43 /* Thing.swift */,
 				7DB58AC925A8F2DF006508E0 /* ContentView.swift */,
 				7DB58ACB25A8F2E0006508E0 /* Assets.xcassets */,
 				7DB58AD025A8F2E0006508E0 /* Info.plist */,
 				7DB58ACD25A8F2E0006508E0 /* Preview Content */,
-				7DC23C5A25ABAFBD002CE729 /* BasketballView.swift */,
-				7DC23C5D25ABB1C1002CE729 /* CookingView.swift */,
-				7DC23C6025ABB1E1002CE729 /* GameOfThronesView.swift */,
+				7DC23C5A25ABAFBD002CE729 /* ThingDetailView.swift */,
 			);
 			path = FavouriteThingsSwiftUI;
 			sourceTree = "<group>";
@@ -147,11 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DC23C6125ABB1E1002CE729 /* GameOfThronesView.swift in Sources */,
 				7DB58ACA25A8F2DF006508E0 /* ContentView.swift in Sources */,
-				7DC23C5E25ABB1C1002CE729 /* CookingView.swift in Sources */,
 				7DB58AC825A8F2DF006508E0 /* FavouriteThingsSwiftUIApp.swift in Sources */,
-				7DC23C5B25ABAFBD002CE729 /* BasketballView.swift in Sources */,
+				7DB8B28025ACDEA6002EDC43 /* Thing.swift in Sources */,
+				7DB8B28325ACE066002EDC43 /* Things.swift in Sources */,
+				7DC23C5B25ABAFBD002CE729 /* ThingDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
