@@ -29,6 +29,14 @@ class Things {
         // Game of thrones
         list.append(Thing(title: "Game of Thrones", imageName: "Game of thrones", description: "I've seen GOT twice, its a great show even though they ruined the 8th season."))
         
+        // The boys
+        list.append(Thing(title: "The Upper Men", imageName: "The boys", description: "The boys mean a lot to me. Even though Ben isn't technically in Upper, he's with us in spirit."))
+        
+        // PC
+        list.append(Thing(title: "PC's", imageName: "PC", description: "I used to be really interesed in computers. I even built my own during the summer of 2020. Sadly now I couldn't list any of the specs or name any of the parts."))
+        
+        // Netflix
+        list.append(Thing(title: "Netflix", imageName: "Netflix", description: "I really enjoy watching shows and movies. I recently finished the first season of Attack on Titans and it was amazing."))
         
     }
 }

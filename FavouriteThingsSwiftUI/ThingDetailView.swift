@@ -23,7 +23,7 @@ struct ThingDetailView: View {
             
             Spacer()
         }
-        .navigationTitle("Basketball")
+        .navigationTitle(thingToShow.title)
     }
 }
 
