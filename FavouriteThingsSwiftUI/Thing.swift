@@ -16,5 +16,9 @@ struct Thing: Identifiable {
     let imageName: String
     let description: String
     
+    // Lets add a sublist of related favourite things
+    // Thing is an example of recursion
+    var relatedThings: [Thing] = [] // Empty list
+    
     
 }
