@@ -10,7 +10,7 @@ import Foundation
 // A class does not automatically generate an inilizatizer
 // Editor > Refactor > Generate Member Initializer
 // Be sure cursor is placed inside the name of the class
-class Things {
+struct Things {
     
     // Properties
     var list: [Thing] = []
